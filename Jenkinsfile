@@ -3,6 +3,7 @@ pipeline{
         branchName = 'main'
         imageName = 'test'
         tagName = 'testtag'
+        text_env = 'Hello World'
     }
     agent any
     stages{
