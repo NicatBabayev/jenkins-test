@@ -1,6 +1,6 @@
 pipeline{
     environment{
-        branchName = 'main'
+        branchName = 'master'
         imageName = 'test'
         tagName = 'testtag'
         text_env = 'Hello World'
